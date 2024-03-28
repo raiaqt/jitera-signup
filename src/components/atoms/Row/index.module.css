@@ -1,0 +1,16 @@
+.jitera-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  flex-wrap: var(--wrap);
+  justify-content: var(--justify);
+  align-items: var(--align);
+  direction: var(--direction);
+  margin-left: calc(-1 * var(--gutter-horizontal) / 2);
+  margin-right: calc(-1 * var(--gutter-horizontal) / 2);
+  row-gap: var(--gutter-vertical);
+}
+.jitera-row::before,
+.jitera-row::after {
+  display: flex;
+}

@@ -1,0 +1,40 @@
+@layer drawer {
+  .drawer_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .drawer_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-right: 32px;
+    height: 50px;
+  }
+
+  .drawer_header svg {
+    vertical-align: middle;
+  }
+
+  .closable {
+    cursor: pointer;
+  }
+
+  .closable:hover {
+    color: #1890ff;
+  }
+}

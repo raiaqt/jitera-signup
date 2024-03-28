@@ -1,0 +1,14 @@
+{
+  "screen.home.email": "janedoe@mail.com",
+  "screen.home.first_name": "Jane",
+  "screen.home.form_1_name": "Sign up form",
+  "screen.home.form_1_text_0": "Submit",
+  "screen.home.input_1_error_message_text": "Error Message",
+  "screen.home.input_1_label": "First name",
+  "screen.home.input_2_label": "Last name",
+  "screen.home.input_3_error_message_text": "Error Message",
+  "screen.home.input_3_label": "Mobile number",
+  "screen.home.input_4_label": "Email",
+  "screen.home.last_name": "Doe",
+  "screen.home.mobile_number": "09999999999"
+}
